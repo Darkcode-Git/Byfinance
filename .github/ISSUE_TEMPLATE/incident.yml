@@ -1,0 +1,13 @@
+name: Incident
+description: Record an operational incident.
+body:
+  - type: textarea
+    id: impact
+    attributes:
+      label: Impact and affected services
+    validations:
+      required: true
+  - type: textarea
+    id: timeline
+    attributes:
+      label: Timeline and response

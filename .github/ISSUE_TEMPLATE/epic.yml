@@ -1,0 +1,13 @@
+name: Epic
+description: Track a cross-domain initiative.
+body:
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Desired outcome
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope and dependencies

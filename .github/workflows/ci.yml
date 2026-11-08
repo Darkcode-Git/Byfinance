@@ -1,0 +1,17 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  scaffold:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify monorepo areas
+        run: |
+          for area in apps services packages infrastructure data-platform observability security architecture docs tests scripts environments database tools; do
+            test -d "$area"
+          done

@@ -1,0 +1,13 @@
+name: Task
+description: Track a discrete implementation task.
+body:
+  - type: textarea
+    id: work
+    attributes:
+      label: Work to complete
+    validations:
+      required: true
+  - type: textarea
+    id: definition
+    attributes:
+      label: Definition of done

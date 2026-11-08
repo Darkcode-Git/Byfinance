@@ -1,0 +1,10 @@
+name: Terraform (scaffold)
+
+on:
+  workflow_dispatch:
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure Terraform validation, state, and approval gates before enabling this workflow."
