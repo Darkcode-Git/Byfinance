@@ -1,0 +1,12 @@
+name: Release (scaffold)
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure release versioning and publishing before enabling this workflow."

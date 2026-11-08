@@ -1,0 +1,12 @@
+name: CD Production (scaffold)
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure production deployment and approvals before enabling this workflow."

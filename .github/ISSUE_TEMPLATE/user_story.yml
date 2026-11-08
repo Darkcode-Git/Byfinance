@@ -1,0 +1,16 @@
+name: User story
+description: Propose a user-centered requirement.
+body:
+  - type: textarea
+    id: story
+    attributes:
+      label: Story
+      description: As a…, I want…, so that…
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+    validations:
+      required: true

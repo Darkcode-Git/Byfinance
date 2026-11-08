@@ -1,0 +1,12 @@
+name: Backup (scaffold)
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure backup targets, retention, and restore validation before enabling this workflow."

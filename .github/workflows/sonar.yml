@@ -1,0 +1,12 @@
+name: Sonar (scaffold)
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure the Sonar project and credentials before enabling this workflow."

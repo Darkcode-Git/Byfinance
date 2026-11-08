@@ -1,0 +1,12 @@
+name: Security (scaffold)
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure the approved security scanners before enabling this workflow."

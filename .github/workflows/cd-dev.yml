@@ -1,0 +1,12 @@
+name: CD Dev (scaffold)
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure development deployment before enabling this workflow."

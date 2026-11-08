@@ -1,0 +1,12 @@
+name: Kubernetes (scaffold)
+
+on:
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  configure:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Configure Kubernetes validation and deployment before enabling this workflow."
