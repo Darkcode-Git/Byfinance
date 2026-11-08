@@ -3,6 +3,8 @@ name: Release (scaffold)
 on:
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   configure:
     runs-on: ubuntu-latest

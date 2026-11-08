@@ -3,6 +3,8 @@ name: CD Dev (scaffold)
 on:
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   configure:
     runs-on: ubuntu-latest
